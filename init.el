@@ -24,8 +24,16 @@
 (require 'init-package)
 (require 'init-backups)
 (require 'init-theme)
+(require 'init-sublime)
 
+;; Editor
 (require 'init-base)
+(require 'init-git)
+
+;; Languages
+(require 'init-clojure)
+(require 'init-go)
+(require 'init-ruby)
 
 ;; Sync packages
 (el-get 'sync c42:el-get-packages)
