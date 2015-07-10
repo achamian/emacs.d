@@ -2,7 +2,9 @@
 
 (defun c42:go-mode-hook ()
   (add-hook 'before-save-hook 'gofmt-before-save)
-  (local-set-key (kbd "M-.") 'godef-jump))
+  (local-set-key (kbd "M-.") 'godef-jump)
+  (local-set-key (kbd "M-,") 'pop-tag-mark)
+  (local-set-key (kbd "C-c ," 'go-test-current-file)))
 
 (c42:after-initializing
  (add-hook 'go-mode-hook 'c42:go-mode-hook)
