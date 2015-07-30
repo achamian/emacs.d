@@ -9,3 +9,5 @@ elpa
 /smex-items
 /.places
 ac-comphist.dat
+/.mc-lists.el
+/nrepl-history

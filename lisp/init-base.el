@@ -45,7 +45,6 @@
  (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
  (add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
  (global-linum-mode t)
- (global-company-mode t)
  (global-undo-tree-mode t)
  (global-flycheck-mode t)
  (column-number-mode t)
